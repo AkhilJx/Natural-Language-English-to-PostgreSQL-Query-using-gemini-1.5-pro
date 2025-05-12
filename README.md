@@ -7,15 +7,10 @@ Neon is a serverless, open-source, cloud-native Postgres database. It separates 
 
 The Key Features of Neon:
 Serverless: You don't manage servers — Neon automatically handles provisioning, scaling, and suspending compute resources when idle.
-
 Separation of Storage and Compute: This allows compute resources to scale independently and helps reduce costs when no queries are being run.
-
 Branching: Similar to Git, Neon lets you create branches of your database (e.g., for development, testing, or staging) without copying the full dataset.
-
 Postgres Compatible: It's fully compatible with the PostgreSQL database engine, meaning you can use standard Postgres clients and tools.
-
 Auto-suspend and Resume: Inactive compute instances are automatically suspended to save costs, and they resume when queries are made.
-
 Built-in Storage Snapshots: Useful for creating backups and restoring to previous states.
 
 
