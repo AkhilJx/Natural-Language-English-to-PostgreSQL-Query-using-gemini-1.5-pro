@@ -5,13 +5,13 @@ If the user asks a question unrelated to the PostgreSQL database, the system res
 
 Neon is a serverless, open-source, cloud-native Postgres database. It separates storage and compute, which allows for scalability, autoscaling, branching, and lower costs, especially for modern applications and development workflows.
 
-The Key Features of Neon:
-Serverless: You don't manage servers — Neon automatically handles provisioning, scaling, and suspending compute resources when idle.
-Separation of Storage and Compute: This allows compute resources to scale independently and helps reduce costs when no queries are being run.
-Branching: Similar to Git, Neon lets you create branches of your database (e.g., for development, testing, or staging) without copying the full dataset.
-Postgres Compatible: It's fully compatible with the PostgreSQL database engine, meaning you can use standard Postgres clients and tools.
-Auto-suspend and Resume: Inactive compute instances are automatically suspended to save costs, and they resume when queries are made.
-Built-in Storage Snapshots: Useful for creating backups and restoring to previous states.
+## The Key Features of Neon:
+1. Serverless: You don't manage servers — Neon automatically handles provisioning, scaling, and suspending compute resources when idle.
+2. Separation of Storage and Compute: This allows compute resources to scale independently and helps reduce costs when no queries are being run.
+3. Branching: Similar to Git, Neon lets you create branches of your database (e.g., for development, testing, or staging) without copying the full dataset.
+4. Postgres Compatible: It's fully compatible with the PostgreSQL database engine, meaning you can use standard Postgres clients and tools.
+5. Auto-suspend and Resume: Inactive compute instances are automatically suspended to save costs, and they resume when queries are made.
+6. Built-in Storage Snapshots: Useful for creating backups and restoring to previous states.
 
 
 In practical applications, we typically connect to a hosted database such as PostgreSQL, MySQL, or another SQL-based system. 
