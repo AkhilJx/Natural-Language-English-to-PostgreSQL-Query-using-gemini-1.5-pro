@@ -5,6 +5,9 @@ If the user asks a question unrelated to the PostgreSQL database, the system res
 
 Neon is a serverless, open-source, cloud-native Postgres database. It separates storage and compute, which allows for scalability, autoscaling, branching, and lower costs, especially for modern applications and development workflows.
 
+## Neon database system References:
+https://neon.tech/docs/import/import-sample-data
+
 ## The Key Features of Neon:
 1. Serverless: You don't manage servers — Neon automatically handles provisioning, scaling, and suspending compute resources when idle.
 2. Separation of Storage and Compute: This allows compute resources to scale independently and helps reduce costs when no queries are being run.
